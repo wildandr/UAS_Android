@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "88025030388",
+    "firebase_url": "https://porsipintar-default-rtdb.firebaseio.com",
+    "project_id": "porsipintar",
+    "storage_bucket": "porsipintar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88025030388:android:e302ab52849fe7b2af88a1",
+        "android_client_info": {
+          "package_name": "com.android.kaloriku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQpfBg8Nplmad9Un2FXSbjwruxSYWmJw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88025030388:android:ce9cc69243ee3896af88a1",
+        "android_client_info": {
+          "package_name": "com.android.porsipintar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQpfBg8Nplmad9Un2FXSbjwruxSYWmJw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

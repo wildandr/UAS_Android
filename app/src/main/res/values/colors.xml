@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#202020</color> <!-- Darker shade for better contrast -->
+    <color name="white">#FFFFFF</color> <!-- Kept the same for clarity -->
+    <color name="yellow">#FF5722</color> <!-- Brighter yellow for energy -->
+    <color name="dark_blue">#0B73C5</color> <!-- Slightly lighter for readability -->
+    <color name="blue">#2196F3</color> <!-- Brighter blue for emphasis -->
+    <color name="light_blue">#03A9F4</color> <!-- Crisp light blue for freshness -->
+    <color name="tertiary">#2196F3</color> <!-- Green for health association -->
+    <color name="primary">#E4FAFF</color> <!-- Brighter green for primary actions -->
+    <color name="gray">#8F8F8F</color> <!-- Softer gray for less strain -->
+    <color name="light_gray">#ECECEC</color> <!-- Lighter gray for backgrounds -->
+</resources>

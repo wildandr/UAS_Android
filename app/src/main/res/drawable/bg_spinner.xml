@@ -1,0 +1,5 @@
+<!-- rounded_box.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/primary" /> <!-- Ganti dengan warna yang diinginkan -->
+    <corners android:radius="8dp" /> <!-- Sesuaikan radius dengan tingkat kebulatan yang diinginkan -->
+</shape>

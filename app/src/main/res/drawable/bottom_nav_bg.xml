@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/half_circle.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Lingkaran -->
+    <item
+        android:top="-320dp"
+        android:left="-320dp"
+        android:right="-320dp"
+        android:bottom="-320dp">
+        <shape
+            android:shape="oval">
+            <solid android:color="@color/tertiary" />
+        </shape>
+    </item>
+
+    <!-- Potong setengah lingkaran dengan rectangle -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+</layer-list>

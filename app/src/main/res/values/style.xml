@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <!-- Atur warna teks yang sesuai -->
+        <item name="android:titleTextColor">@color/black</item>
+        <!-- Atur ukuran teks yang sesuai -->
+        <item name="android:textSize">16sp</item>
+        <!-- Atur jenis huruf yang sesuai -->
+        <item name="android:typeface">sans</item>
+        <!-- Atur style dropdown -->
+        <item name="android:popupBackground">@color/white</item>
+        <!-- Atur warna latar belakang -->
+        <item name="android:background">@drawable/bg_spinner</item>
+        <!-- Atur padding -->
+        <item name="android:padding">8dp</item>
+    </style>
+
+</resources>

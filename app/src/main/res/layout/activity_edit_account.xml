@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/blue2"
+    tools:context=".authentication.EditAccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+
+                android:textColor="@color/white"
+                android:text="Masukkan data pengguna baru"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="16dp"
+                android:orientation="vertical"
+                tools:ignore="ExtraText">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:background="@drawable/edittext_background"
+                        android:textColorHint="@color/black"
+                        android:textSize="18dp"
+                        android:text="Program"/>
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner_target"
+                        style="@style/CustomSpinnerStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_marginStart="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:background="@drawable/edittext_background"
+                        android:textColorHint="@color/black"
+                        android:textSize="18dp"
+                        android:text="Gender"/>
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner_gender"
+                        style="@style/CustomSpinnerStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_marginStart="8dp"/>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edt_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/gray"
+                    android:layout_marginVertical="8dp"
+                    android:padding="16dp"
+                    android:inputType="text"
+                    android:hint="Nama"
+                    android:textColor="@color/black"
+                    android:background="@drawable/edittext_background"
+                    />
+                <EditText
+                    android:id="@+id/edt_usia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/gray"
+                    android:layout_marginVertical="8dp"
+                    android:padding="16dp"
+                    android:inputType="number"
+                    android:hint="Usia"
+                    android:textColor="@color/black"
+                    android:background="@drawable/edittext_background"/>
+                <EditText
+                    android:id="@+id/edt_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/gray"
+                    android:layout_marginVertical="8dp"
+                    android:padding="16dp"
+                    android:inputType="numberDecimal"
+                    android:hint="Berat Badan"
+                    android:textColor="@color/black"
+                    android:background="@drawable/edittext_background"/>
+                <EditText
+                    android:id="@+id/edt_height"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/gray"
+                    android:layout_marginVertical="8dp"
+                    android:padding="16dp"
+                    android:inputType="numberDecimal"
+                    android:hint="Tinggi Badan"
+                    android:textColor="@color/black"
+                    android:background="@drawable/edittext_background"/>
+                <EditText
+                    android:id="@+id/edt_kalori_harian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/gray"
+                    android:layout_marginVertical="8dp"
+                    android:padding="16dp"
+                    android:inputType="number"
+                    android:hint="Target Kalori Harian"
+                    android:textColor="@color/black"
+                    android:background="@drawable/edittext_background"/>
+                <EditText
+                    android:id="@+id/edt_target_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/gray"
+                    android:layout_marginVertical="8dp"
+                    android:padding="16dp"
+                    android:inputType="numberDecimal"
+                    android:hint="Target Berat Badan (Kg)"
+                    android:textColor="@color/black"
+                    android:background="@drawable/edittext_background"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_simpan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="Simpan"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bg_button"
+                    android:padding="16dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
